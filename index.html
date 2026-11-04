@@ -43,5 +43,68 @@
 <section class="legal" id="soukromi"><div class="container"><h2>Ochrana osobních údajů</h2><p>Pokud nás kontaktujete telefonicky nebo e-mailem, zpracováváme vámi poskytnuté kontaktní údaje a obsah komunikace pouze za účelem vyřízení vašeho dotazu, přípravy nabídky nebo realizace zakázky a souvisejících zákonných povinností.</p><p>Správce: Hodur, IČO 69584231, Hlučín. Kontakt pro otázky ochrany osobních údajů: <a href="mailto:Hodur.E2A@seznam.cz">Hodur.E2A@seznam.cz</a>. Údaje uchováváme po dobu nezbytnou pro vyřízení komunikace, plnění smluvních a zákonných povinností nebo ochranu oprávněných nároků. V rozsahu stanoveném GDPR máte právo na přístup, opravu, výmaz, omezení zpracování, námitku a podání stížnosti k Úřadu pro ochranu osobních údajů.</p><p>Tyto stránky samy nepoužívají analytické ani reklamní cookies a neobsahují kontaktní formulář.</p></div></section>
 </main>
 <footer>© 2026 Hodur • Elektro • Revize • FVE • Hromosvody<br>Smart Home • Kamerové systémy • Sítě &amp; IT • UPS: <a href="https://pavelkalemba.cz/" target="_blank" rel="noopener noreferrer">Pavel Kalemba – pavelkalemba.cz</a><br><a href="#soukromi">Ochrana osobních údajů</a></footer>
+
+<section id="poptavka" style="background:#111827;padding:45px 20px;color:white">
+  <div style="max-width:650px;margin:auto">
+    <h2>Nezávazně poptat revizi</h2>
+    <p>Vyplňte krátký formulář a ozveme se vám.</p>
+
+    <form action="https://formspree.io/f/mdeebzke" method="POST"
+      style="display:grid;gap:14px">
+
+      <label>Jméno a příjmení
+        <input type="text" name="jmeno" required
+          style="width:100%;padding:12px">
+      </label>
+
+      <label>E-mail
+        <input type="email" name="email" required
+          style="width:100%;padding:12px">
+      </label>
+
+      <label>Telefon
+        <input type="tel" name="telefon"
+          style="width:100%;padding:12px">
+      </label>
+
+      <label>Typ revize
+        <select name="typ_revize" required
+          style="width:100%;padding:12px">
+          <option value="">Vyberte typ revize</option>
+          <option>Výchozí revize</option>
+          <option>Pravidelná revize</option>
+          <option>Revize hromosvodu</option>
+          <option>Revize FVE</option>
+          <option>Jiná revize / nevím</option>
+        </select>
+      </label>
+
+      <label>Místo zakázky
+        <input type="text" name="lokalita" required
+          style="width:100%;padding:12px">
+      </label>
+
+      <label>Popis požadavku
+        <textarea name="zprava" rows="5" required
+          style="width:100%;padding:12px"></textarea>
+      </label>
+
+      <p style="font-size:13px">
+        Odesláním formuláře berete na vědomí zpracování
+        kontaktních údajů za účelem vyřízení poptávky.
+        <a href="#soukromi" style="color:#f59e0b">
+          Ochrana osobních údajů
+        </a>
+      </p>
+
+      <button type="submit"
+        style="background:#d97706;color:white;border:0;
+        padding:15px;border-radius:8px;font-weight:bold;cursor:pointer">
+        Odeslat nezávaznou poptávku
+      </button>
+    </form>
+  </div>
+</section>
+
 </body>
 </html>
